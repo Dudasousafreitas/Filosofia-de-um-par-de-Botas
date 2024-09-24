@@ -1,0 +1,172 @@
+.Resenha{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FAE7B5;
+    margin-top: 30px;
+    height: 500px;
+}
+
+.pergaminho img{
+    width: 600px;
+}
+
+.pergaminho{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Carattere';
+}
+
+.info-perg{
+    position: absolute;
+}
+
+.info-perg h1{
+    font-size: 80px;
+    font-weight: 400;
+    text-align: center;
+    color: #10332C;
+}
+
+.info-perg p {
+    text-align: center;
+    margin-top: -40px;
+    font-size: 30px;
+    color: #10332C;
+}
+
+.resenhas-card{
+    background-color: #FAE7B5;
+    margin-top: 30px;
+    height: 600px;
+}
+
+.resenhas-card h1{
+    text-align: center;
+    font-family: 'carattere';
+    font-weight: 400;
+    font-size: 50px;
+    padding-top: 30px;
+}
+
+.resenhas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.resenhas span{
+    border: solid 2px black;
+    height: 400px;
+    margin: 30px;
+}
+
+.resenhas p {
+    width: 100%;
+    margin: 20px;
+    font-size: 30px;
+}
+
+
+
+footer{
+    margin-top: 30px;
+}
+
+@media(max-width: 943px){
+
+    .Resenha img{
+        width: 290px;
+    }
+
+
+    .pergaminho img{
+        width: 500px;
+    }
+
+    .info-perg h1{
+        font-size: 60px;
+    }
+
+    .resenhas p{
+        font-size: 26px;
+    }
+
+}
+
+
+@media (max-width: 776px){
+
+    .Resenha img{
+        width: 200px;
+    }
+
+    .pergaminho img{
+        width: 300px;
+    }
+
+    .pergaminho p{
+        font-size: 20px;
+    }
+
+    .pergaminho h1{
+        font-size: 45px;
+    }
+
+    .resenhas p{
+        font-size: 23px;
+    }
+
+}
+
+@media (max-width: 677px){
+
+    .Resenha img{
+        width: 200px;
+    }
+
+    .pergaminho img{
+        width: 300px;
+    }
+
+    .pergaminho p{
+        font-size: 20px;
+    }
+
+    .pergaminho h1{
+        font-size: 45px;
+    }
+
+    .resenhas p{
+        font-size: 21px;
+    }
+
+}
+
+@media (max-width: 501px){
+
+    .Resenha img{
+        width: 200px;
+    }
+
+    .pergaminho img{
+        width: 300px;
+    }
+
+    .pergaminho p{
+        font-size: 20px;
+    }
+
+    .pergaminho h1{
+        font-size: 45px;
+    }
+
+    .resenhas p{
+        font-size: 18px;
+    }
+
+}
+

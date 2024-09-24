@@ -1,0 +1,109 @@
+.personagens{
+    background-color: #FAE7B5;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personagem{
+    display: flex;
+    flex-direction: column;
+    background-color: #0D302A;
+    margin: 40px;
+    padding: 8px;
+    height: 389px;
+    border-radius: 8px;
+}
+
+.personagem img{
+    width: 300px;
+    border-radius: 8px;
+}
+
+.personagem h1{
+    font-family: 'Carattere';
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.info{
+    font-size: 28px;
+    width: 70%;
+}
+
+.personagem:nth-of-type(2){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300vh;
+    margin-left: 80px;
+
+}
+
+.info2{
+    font-size: 28px;
+    margin-left: 80px;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+@media (max-width: 878px){
+    .personagens p{
+        font-size: 24px;
+    }
+
+    .personagem{
+        width: 250px;
+    }
+
+    .personagem img{
+        width: 250px;
+    }
+}
+
+@media (max-width: 701px){
+    .personagens p{
+        font-size: 20px;
+    }
+
+    .personagem{
+        height: 280px;
+    }
+
+    .personagem h1{
+        font-size: 40px;
+    }
+
+    .personagem img{
+        width: 200px;
+    }
+}
+
+@media (max-width: 620px){
+    
+    .personagens p{
+        font-size: 19px;
+        
+    }
+
+    .personagens{
+        flex-direction: column;
+    }
+
+    .personagem{
+        width: 220px;;
+    }
+
+    .personagem img{
+        width: 220px;
+    }
+
+    .personagem:nth-of-type(2){
+        width: 220px;
+    }
+}

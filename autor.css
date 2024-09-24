@@ -1,0 +1,258 @@
+.info{
+    margin-top: 150px;
+    font-size: 28px;
+}
+
+.info-autor{
+    background-color: #FAE7B5;
+    font-size: 28px;
+    height: 630px;
+}
+
+.info-autor p{
+    margin: 0;
+    padding: 0;
+    margin-left: 40px;
+    margin-bottom: 50px;
+}
+
+.personagens{
+    background-color: #FAE7B5;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.personagem{
+    display: flex;
+    flex-direction: column;
+    background-color: #0D302A;
+    margin: 40px;
+    padding: 8px;
+    height: 389px;
+    border-radius: 8px;
+}
+
+.personagem img{
+    width: 300px;
+    border-radius: 8px;
+}
+
+.personagem h1{
+    font-family: 'Carattere';
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+
+.obras-title{
+    font-family: 'Carattere';
+    text-align: center;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.Obras{
+    background-color: #FAE7B5;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Obra{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 8px;
+    height: 389px;
+    border-radius: 8px;
+}
+
+.Obra img{
+    width: 250px;
+    border-radius: 8px;
+}
+
+.Obra h1{
+    font-family: 'Carattere';
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+.info-obras{
+    font-size: 28px;
+}
+
+.info2{
+    font-size: 28px;
+    margin: 40px;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+@media (max-width: 1442px){
+    .info{
+        font-size:  25px;
+    }
+
+    .personagem{
+        width: 250px;
+        height: 320px;
+    }
+
+    .personagem img:nth-of-type(1){
+        width: 250px;
+    }
+
+    .personagem h1:nth-of-type(1){
+        font-size: 40px;
+    }
+
+    .info-autor p{
+        font-size: 25px;
+    }
+
+}
+
+@media (max-width: 1442px){
+    .info{
+        font-size:  20px;
+    }
+
+    .info-autor p{
+        font-size: 20px;
+    }
+
+    .info-autor{
+        height: 500px;
+    }
+
+    .personagem{
+        width: 250px;
+        height: 320px;
+    }
+
+    .personagem img:nth-of-type(1){
+        width: 250px;
+    }
+
+    .personagem h1:nth-of-type(1){
+        font-size: 40px;
+    }
+
+
+}
+
+@media (max-width: 856px){
+    .info{
+        font-size:  20px;
+    }
+
+    .info-autor p{
+        font-size: 20px;
+    }
+
+    .info-autor{
+        height: 650px;
+    }
+
+    .personagem{
+        width: 250px;
+        height: 320px;
+    }
+
+    .personagem img:nth-of-type(1){
+        width: 250px;
+    }
+
+    .personagem h1:nth-of-type(1){
+        font-size: 40px;
+    }
+
+    .Obras p{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 703px){
+    .info{
+        font-size:  20px;
+    }
+
+    .info-autor p{
+        font-size: 20px;
+    }
+
+    .info-autor{
+        height: 680px;
+    }
+
+    .personagem{
+        width: 250px;
+        height: 320px;
+    }
+
+    .personagem img:nth-of-type(1){
+        width: 250px;
+    }
+
+    .personagem h1:nth-of-type(1){
+        font-size: 40px;
+    }
+
+    .Obras p{
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .Obras{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 501px){
+    .info{
+        font-size:  20px;
+        margin-top: -20px;
+        margin: 20px;
+    }
+
+    .info-autor p{
+        font-size: 20px;
+    }
+
+    .info-autor{
+        height: 930px;
+    }
+
+    .personagem{
+        width: 250px;
+        height: 320px;
+    }
+
+    .personagem img:nth-of-type(1){
+        width: 250px;
+    }
+
+    .personagem h1:nth-of-type(1){
+        font-size: 40px;
+    }
+
+    .personagens{
+        flex-direction: column;
+    }
+
+    .Obras p{
+        font-size: 22px;
+    }
+
+
+}

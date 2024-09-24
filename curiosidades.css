@@ -1,0 +1,90 @@
+.personagens{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title{
+    background-color: #FAE7B5;
+    font-size: 60px;
+    font-family: 'Carattere';
+}
+
+.info3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 150px;
+}
+
+.info-autor{
+    background-color: #FAE7B5;
+    margin-top: -40px;
+}
+
+.title p{
+    margin: 0;
+    padding: 0;
+}
+
+.container-curiosidades{
+    display: flex;
+    flex-direction: row;
+}
+
+.personagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-autor p{
+    font-size: 30px;
+    margin: 40px;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+@media (max-width: 1404px){
+    .personagem{
+        width: 300px;
+    }
+
+    .info3{
+        font-size: 25px;
+    }
+
+    .info-autor p{
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 837px){
+    .container-curiosidades{
+        flex-direction: column;
+    }
+
+    .container-curiosidades p {
+        margin-top: -150px;
+        margin-left: 40px;
+    }
+}
+
+@media(max-width: 501px){
+    .container-curiosidades{
+        flex-direction: column;
+    }
+
+    .info3 p{
+        font-size: 25px;
+    }
+
+    .container-curiosidades p {
+        margin-top: -150px;
+        margin-left: 40px;
+    }
+}
